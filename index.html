@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Anhanguera</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="shortcut icon" href="assets/img/logo-anh.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+
+            <div class="logo-text">
+                <img src="assets/img/logoanh.png" alt="Logo Anhanguera">
+            </div>
+        </div>
+
+        <a href="#" class="btn-portal">PORTAL</a>
+    </header>
+
+    <main>
+        <div class="container-horario">
+            <div class="page-header">
+                <div>
+                    <h3>Grade Curricular - Semanal</h3>
+                    <p class="subtitle">Visão Geral do Quadro de Horários da Anhanguera Paragominas</p>
+                </div>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Buscar professor, sala ou disciplina..."
+                        onkeyup="filtrarTabela()">
+                </div>
+            </div>
+
+            <div class="filters">
+                <button class="filter-btn active" onclick="filtrarDia('Todos')">Todos</button>
+                <button class="filter-btn" onclick="filtrarDia('Segunda')">Segunda</button>
+                <button class="filter-btn" onclick="filtrarDia('Terça')">Terça</button>
+                <button class="filter-btn" onclick="filtrarDia('Quarta')">Quarta</button>
+                <button class="filter-btn" onclick="filtrarDia('Quinta')">Quinta</button>
+                <button class="filter-btn" onclick="filtrarDia('Sexta')">Sexta</button>
+            </div>
+
+            <div class="card-grid">
+                <div class="table-responsive">
+                    <table class="grid-anhanguera">
+                        <thead>
+                            <tr>
+                                <th width="10%">Dia</th>
+                                <th width="10%">Curso</th>
+                                <th width="25%">Disciplina</th>
+                                <th width="20%">Professor(a)</th>
+                                <th width="15%">Semestre / Turma</th>
+                                <th width="10%">Sala</th>
+                                <th width="10%">Modalidade</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabela-horarios">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="legend" style="margin-top: 20px;">
+                <p id="total-registros">Carregando...</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
