@@ -7,8 +7,8 @@ const disciplinas = [
     { dia: "Segunda", sala: "Sala 04", curso: "Direito", disciplina: "Proc. Civil - Conhecimento", professor: "Claudio Luan", semestre: "4° Semestre", turma: "4831520242A", modalidade: "Presencial" },
     { dia: "Segunda", sala: "Sala 05", curso: "Direito", disciplina: "Direito Penal - Crimes em Espécie", professor: "Luiz Paulo", semestre: "5° Semestre", turma: "4831520241A", modalidade: "Presencial" },
     { dia: "Segunda", sala: "Sala 06", curso: "Direito", disciplina: "Direito Penal - Teoria das Penas", professor: "Matheus Rocha", semestre: "3º Semestre", turma: "4831520251A", modalidade: "Presencial" },
-    { dia: "Segunda", sala: "Sala 07", curso: "Psicologia", disciplina: "Bases Biológicas do Comportamento", professor: "Stéphane Negrão", semestre: "1º e 4º Semestre", turma: "4831520261A, 4433820242A", modalidade: "Presencial" },
-    { dia: "Segunda", sala: "Sala 09", curso: "Psicologia", disciplina: "Medidas e Avaliação III", professor: "Sandro Ueki", semestre: "6° Semestre", turma: "4433820232A", modalidade: "Presencial" },
+    { dia: "Segunda", sala: "Sala 09", curso: "Psicologia", disciplina: "Bases Biológicas do Comportamento", professor: "Stéphane Negrão", semestre: "1º e 4º Semestre", turma: "4831520261A, 4433820242A", modalidade: "Presencial" },
+    { dia: "Segunda", sala: "Sala 07", curso: "Psicologia", disciplina: "Medidas e Avaliação III", professor: "Sandro Ueki", semestre: "6° Semestre", turma: "4433820232A", modalidade: "Presencial" },
     { dia: "Segunda", sala: "Sala 10", curso: "Biomedicina", disciplina: "EAD", professor: "Ramilla Rocha", semestre: "1° Semestre", turma: "1° Semestre", modalidade: "EAD" },
     { dia: "Segunda", sala: "Sala 11", curso: "Eng. Civil", disciplina: "Hidráulica e Hidrometria", professor: "Antenor Neto", semestre: "7° Semestre", turma: "494620231A", modalidade: "Híbrido" },
     { dia: "Segunda", sala: "Sala 12", curso: "Direito", disciplina: "Direito Civil - Contratos", professor: "Amauri Cativo", semestre: "3º Semestre", turma: "48315202518", modalidade: "Presencial" },
@@ -120,7 +120,7 @@ const disciplinas = [
     // SEXTA-FEIRA
     // =====================================================
     { dia: "Sexta", sala: "Sala 02", curso: "Psicologia", disciplina: "Análise Exp. do Comportamento", professor: "Clauber Torres", semestre: "1º e 2º Semestre", turma: "44338202524, 4433820261A", modalidade: "Presencial" },
-    { dia: "Sexta", sala: "Sala 04", curso: "Direito", disciplina: "Direito Previdenciário", professor: "Iolindemberg Mendes", semestre: "4° Semestre", turma: "4831520241A, 4831520242A", modalidade: "Presencial" },
+    { dia: "Sexta", sala: "Sala 31/32", curso: "Direito", disciplina: "Direito Previdenciário", professor: "Iolindemberg Mendes", semestre: "4° Semestre", turma: "4831520241A, 4831520242A", modalidade: "Presencial" },
     { dia: "Sexta", sala: "Sala 05", curso: "Psicologia", disciplina: "Psicanálise", professor: "Danianisse Balieiro", semestre: "4º e 5º Semestre", turma: "44338202414, 4433820242A", modalidade: "Presencial" },
     { dia: "Sexta", sala: "Sala 06", curso: "Licenciaturas", disciplina: "EAD", professor: "Carla Girard", semestre: "1° Semestre", turma: "1° Semestre", modalidade: "EAD" },
     { dia: "Sexta", sala: "Sala 07", curso: "Psicologia", disciplina: "Psicopatologia II", professor: "Gisele Maraschin", semestre: "7° Semestre", turma: "4433820231A", modalidade: "Presencial" },
