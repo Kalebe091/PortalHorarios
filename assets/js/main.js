@@ -17,7 +17,7 @@ const disciplinas = [
     { dia: "Segunda", sala: "Sala 18", curso: "Direito", disciplina: "Direito Tributário", professor: "Rebeca Biasi", semestre: "7° Semestre", turma: "4831520231A", modalidade: "Presencial" },
     { dia: "Segunda", sala: "Sala 19", curso: "Fisioterapia", disciplina: "EAD", professor: "Diosé Lira", semestre: "1º e 8º Semestre", turma: "1º e 8° Semestre", modalidade: "EAD" },
     { dia: "Segunda", sala: "Sala 21", curso: "Agronomia", disciplina: "EAD", professor: "Marcele Moraes", semestre: "6º e 7º Semestre", turma: "6º e 7º Semestre", modalidade: "EAD" },
-    { dia: "Segunda", sala: "Sala 23", curso: "Eng. Civil", disciplina: "Cálculo Dif. e Integral II", professor: "Jhosefy", semestre: "2º, 3º e 4º Sem.", turma: "4946202424, 494620251A, 494620252A", modalidade: "Presencial" },
+    { dia: "Segunda", sala: "Sala 23", curso: "Eng. Civil", disciplina: "Cálculo Dif. e Integral II", professor: "Elenildo Barros", semestre: "2º, 3º e 4º Sem.", turma: "4946202424, 494620251A, 494620252A", modalidade: "Presencial" },
     { dia: "Segunda", sala: "Sala 24", curso: "Biomedicina", disciplina: "EAD", professor: "Ana Paula", semestre: "8° Semestre", turma: "8° Semestre", modalidade: "EAD" },
     { dia: "Segunda", sala: "Sala 25", curso: "Ciências Contábeis", disciplina: "EAD", professor: "Lucivan Medina", semestre: "4º e 5º Semestre", turma: "4º e 5º Semestre", modalidade: "EAD" },
     { dia: "Segunda", sala: "Sala 26", curso: "Farmácia", disciplina: "EAD", professor: "Arley Amanda / Erick", semestre: "4º e 5º Semestre", turma: "4º e 5º Semestre", modalidade: "EAD" },
