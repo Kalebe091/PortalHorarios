@@ -40,7 +40,7 @@ const disciplinas = [
     { dia: "Terça", sala: "Sala 11", curso: "Pedagogia-Licenciatura", disciplina: "EAD", professor: "Alberiny Barros", semestre: "2º e 3º Semestre", turma: "2º e 3º Semestre", modalidade: "EAD" },
     { dia: "Terça", sala: "Sala 12", curso: "Biomedicina", disciplina: "EAD", professor: "Ramilla Rocha", semestre: "2º e 3º Semestre", turma: "2º e 3º Semestre", modalidade: "EAD" },
     { dia: "Terça", sala: "Sala 16", curso: "Psicologia", disciplina: "Teoria e Técnicas de Grupo", professor: "Danianisse Balieiro", semestre: "5° Semestre", turma: "4433820241A", modalidade: "Presencial" },
-    { dia: "Terça", sala: "Sala 17", curso: "Farmácia", disciplina: "EAD", professor: "Arley Amanda / Erick Paduano", semestre: "6º e 7º Semestre", turma: "6º e 7º Semestre", modalidade: "EAD" },
+    { dia: "Terça", sala: "Sala 17", curso: "Farmácia", disciplina: "EAD", professor: "Erick Paduano", semestre: "6º e 7º Semestre", turma: "6º e 7º Semestre", modalidade: "EAD" },
     { dia: "Terça", sala: "Sala 18", curso: "Engenharia Civil", disciplina: "Cálculo Dif. e Integral III", professor: "Elenildo Barros", semestre: "5°, 7º e 9º Semestre", turma: "494620221A, 494620231A, 494620241A", modalidade: "Híbrido" },
     { dia: "Terça", sala: "Sala 18", curso: "Engenharia Mecânica", disciplina: "Cálculo Dif. e Integral III", professor: "Elenildo Barros", semestre: "8° Semestre", turma: "496820222A", modalidade: "Presencial" },
     { dia: "Terça", sala: "Sala 19", curso: "Fisioterapia-Bacharelado", disciplina: "EAD", professor: "Daise Alves / Diosé Lira", semestre: "4º e 5º Semestre", turma: "4º e 5º Semestre", modalidade: "EAD" },
@@ -54,6 +54,7 @@ const disciplinas = [
     { dia: "Terça", sala: "Sala 31/32", curso: "Direito", disciplina: "Direito Penal - Teoria das Penas e Execução Penal", professor: "Matheus Rocha", semestre: "3º e 2º Semestre", turma: "4831520251B, 4831520252A", modalidade: "Presencial" },
     { dia: "Terça", sala: "Sala 33/34", curso: "Enfermagem", disciplina: "EAD", professor: "Wenison", semestre: "4º e 5º Semestre", turma: "4º e 5º Semestre", modalidade: "EAD" },
     { dia: "Terça", sala: "Sala 36", curso: "Engenharia de Produção", disciplina: "EAD", professor: "Francisco Lomanto", semestre: "7° Semestre", turma: "7° Semestre", modalidade: "EAD" },
+    { dia: "Terça", sala: "Sala 37", curso: "Farmácia", disciplina: "EAD", professor: "Arley Amanda", semestre: "10° Semestre", turma: "10° Semestre", modalidade: "EAD" },
     { dia: "Terça", sala: "Lab Info A", curso: "Engenharia Mecânica", disciplina: "Algoritmos e Lógica de Programação", professor: "Jhosefy", semestre: "1º e 2º Semestre", turma: "4968202524, 494620261A", modalidade: "Presencial" },
 
     // =====================================================
