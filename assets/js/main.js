@@ -13,7 +13,7 @@ const disciplinas = [
     { dia: "Segunda", sala: "Sala 11", curso: "Engenharia Civil", disciplina: "Hidráulica e Hidrometria", professor: "Antenor Neto", semestre: "7° Semestre", turma: "494620231A", modalidade: "Híbrido" },
     { dia: "Segunda", sala: "Sala 12", curso: "Direito", disciplina: "Direito Civil - Contratos", professor: "Amauri Cativo", semestre: "3º Semestre", turma: "48315202518", modalidade: "Presencial" },
     { dia: "Segunda", sala: "Sala 16", curso: "Nutrição", disciplina: "EAD", professor: "Mahya Martins", semestre: "6° e 7º Semestre", turma: "6º e 7º Semestre", modalidade: "EAD" },
-    { dia: "Segunda", sala: "Sala 17", curso: "Psicologia", disciplina: "Psicologia Social Avançada", professor: "Clauber Torres", semestre: "9° Semestre", turma: "4433820221A, 44338202218", modalidade: "Híbrido" },
+    { dia: "Segunda", sala: "Sala 33/34", curso: "Psicologia", disciplina: "Psicologia Social Avançada", professor: "Clauber Torres", semestre: "9° Semestre", turma: "4433820221A, 44338202218", modalidade: "Híbrido" },
     { dia: "Segunda", sala: "Sala 18", curso: "Direito", disciplina: "Direito Tributário", professor: "Rebeca Biasi", semestre: "7° Semestre", turma: "4831520231A", modalidade: "Presencial" },
     { dia: "Segunda", sala: "Sala 19", curso: "Fisioterapia-Bacharelado", disciplina: "EAD", professor: "Diosé Lira", semestre: "1º e 8º Semestre", turma: "1º e 8º Semestre", modalidade: "EAD" },
     { dia: "Segunda", sala: "Sala 21", curso: "Agronomia-Bacharelado", disciplina: "EAD", professor: "Marcele Moraes", semestre: "6º e 7º Semestre", turma: "6º e 7º Semestre", modalidade: "EAD" },
