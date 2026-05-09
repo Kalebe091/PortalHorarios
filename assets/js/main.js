@@ -6,7 +6,7 @@ const disciplinas = [
     { dia: "Segunda", sala: "Sala 02", curso: "Psicologia", disciplina: "Neuronatomofisiologia", professor: "Nayana Coutinho", semestre: "2º e 3º Semestre", turma: "4433820251A, 4433820252A", modalidade: "Presencial" },
     { dia: "Segunda", sala: "Sala 04", curso: "Direito", disciplina: "Direito Processual Civil – Conhecimento e Processo Eletrônico", professor: "Claudio Luan", semestre: "4° Semestre", turma: "4831520242A", modalidade: "Presencial" },
     { dia: "Segunda", sala: "Sala 05", curso: "Administração", disciplina: "EAD", professor: "Denise Pinheiro", semestre: "4º e 5º Semestre", turma: "4º e 5º Semestre", modalidade: "EAD" },
-    { dia: "Segunda", sala: "Sala 06", curso: "Direito", disciplina: "Direito Penal – Teoria das Penas e Execução Penal", professor: "Matheus Rocha", semestre: "3° Semestre", turma: "4831520251A", modalidade: "Presencial" },
+    { dia: "Segunda", sala: "Sala 06", curso: "Direito", disciplina: "Direito Penal – Teoria das Penas e Execução Penal", professor: "Celson Cunha", semestre: "3° Semestre", turma: "4831520251A", modalidade: "Presencial" },
     { dia: "Segunda", sala: "Sala 07", curso: "Psicologia", disciplina: "Psicologia Social Noções Introdutórias", professor: "Juliana Veloso", semestre: "1° Semestre", turma: "4433820261A", modalidade: "Presencial" },
     { dia: "Segunda", sala: "Sala 09", curso: "Psicologia", disciplina: "Medidas e Avaliação em Psicologia III", professor: "Sandro Ueki", semestre: "6° Semestre", turma: "4433820232A", modalidade: "Presencial" },
     { dia: "Segunda", sala: "Sala 10", curso: "Biomedicina", disciplina: "EAD", professor: "Ramilla Rocha", semestre: "1° Semestre", turma: "1° Semestre", modalidade: "EAD" },
@@ -45,6 +45,7 @@ const disciplinas = [
     { dia: "Terça", sala: "Sala 18", curso: "Engenharia Mecânica", disciplina: "Cálculo Diferencial e Integral III", professor: "Elenildo Barros", semestre: "8° Semestre", turma: "496820222A", modalidade: "Presencial" },
     { dia: "Terça", sala: "Sala 19", curso: "Fisioterapia - Bacharelado", disciplina: "EAD", professor: "Diosé Lira", semestre: "4º e 5º Semestre", turma: "4º e 5º Semestre", modalidade: "EAD" },
     { dia: "Terça", sala: "Sala 21", curso: "Biomedicina", disciplina: "EAD", professor: "Ana Paula", semestre: "4º e 5º Semestre", turma: "4º e 5º Semestre", modalidade: "EAD" },
+    { dia: "Terça", sala: "Sala 22", curso: "Enfermagem", disciplina: "EAD", professor: "Wenison", semestre: "4º e 5º Semestre", turma: "4º e 5º Semestre", modalidade: "EAD" },
     { dia: "Terça", sala: "Sala 23", curso: "Administração", disciplina: "EAD", professor: "Denise Pinheiro", semestre: "7° Semestre", turma: "7° Semestre", modalidade: "EAD" },
     { dia: "Terça", sala: "Sala 24", curso: "Ciências Contábeis", disciplina: "EAD", professor: "Lucivan Medina", semestre: "6º e 7º Semestre", turma: "6º e 7º Semestre", modalidade: "EAD" },
     { dia: "Terça", sala: "Sala 25", curso: "Nutrição", disciplina: "EAD", professor: "Mahyá Martins", semestre: "4º e 5º Semestre", turma: "4º e 5º Semestre", modalidade: "EAD" },
@@ -54,7 +55,7 @@ const disciplinas = [
     { dia: "Terça", sala: "Sala 37", curso: "Farmácia", disciplina: "EAD", professor: "Arley Amanda", semestre: "10° Semestre", turma: "10° Semestre", modalidade: "EAD" },
     { dia: "Terça", sala: "Sala 29/30", curso: "Direito", disciplina: "Direito Penal de Crimes em espécie", professor: "Luiz Paulo", semestre: "4° Semestre", turma: "4831520242A", modalidade: "Presencial" },
     { dia: "Terça", sala: "Sala 31/32", curso: "Direito", disciplina: "Direito Penal - Teoria das Penas e Execução Penal", professor: "Celson Cunha", semestre: "3º e 2º Semestre", turma: "4831520251B, 4831520252A", modalidade: "Presencial" },
-    { dia: "Terça", sala: "Sala 33/34", curso: "Enfermagem", disciplina: "EAD", professor: "Wenison", semestre: "4º e 5º Semestre", turma: "4º e 5º Semestre", modalidade: "EAD" },
+    { dia: "Terça", sala: "Sala 33/34", curso: "Agronomia - Bacharelado", disciplina: "EAD", professor: "João Victor", semestre: "1° Semestre", turma: "1° Semestre", modalidade: "EAD" },
     { dia: "Terça", sala: "Lab Info A", curso: "Engenharia Civil/Mecânica", disciplina: "Algoritmos e Lógica de Programação", professor: "Jhosefy", semestre: "1º e 2º Semestre", turma: "496820252A, 494620261A", modalidade: "Presencial" },
 
     // =====================================================
@@ -76,6 +77,7 @@ const disciplinas = [
     { dia: "Quarta", sala: "Sala 18", curso: "Engenharia Mecânica", disciplina: "Resistência de Materiais", professor: "Elenildo Barros", semestre: "2º e 5º Semestre", turma: "496820241A, 496820252A", modalidade: "Presencial" },
     { dia: "Quarta", sala: "Sala 19", curso: "Engenharia Civil", disciplina: "Topografia e Georreferenciamento", professor: "Gustavo Loureiro", semestre: "3º e 5º Semestre", turma: "494620241A, 494620251A", modalidade: "Presencial" },
     { dia: "Quarta", sala: "Sala 21", curso: "Direito", disciplina: "Direito Coletivo do Trabalho e Tutelas Coletivas", professor: "Iolindemberg Mendes", semestre: "6° Semestre", turma: "4831520232A", modalidade: "Presencial" },
+    { dia: "Quarta", sala: "Sala 22", curso: "Enfermagem", disciplina: "EAD", professor: "Wenison", semestre: "2º e 3º Semestre", turma: "2º e 3º Semestre", modalidade: "EAD" },
     { dia: "Quarta", sala: "Sala 23", curso: "Engenharia Civil", disciplina: "Estruturas de Madeira e Estruturas Metálicas", professor: "Valerry Garcia", semestre: "9° Semestre", turma: "494620221A", modalidade: "Presencial" },
     { dia: "Quarta", sala: "Sala 24", curso: "Agronomia - Bacharelado", disciplina: "EAD", professor: "Artur", semestre: "5° Semestre", turma: "5° Semestre", modalidade: "EAD" },
     { dia: "Quarta", sala: "Sala 25", curso: "Terapia Ocupacional", disciplina: "EAD", professor: "Ana Paula", semestre: "", turma: "", modalidade: "EAD" },
@@ -86,7 +88,6 @@ const disciplinas = [
     { dia: "Quarta", sala: "Sala 29/30", curso: "Direito", disciplina: "Direito Civil - Contrato", professor: "Amauri Cativo", semestre: "4º e 3º Semestre", turma: "4831520242A, 4831520251A", modalidade: "Presencial" },
     { dia: "Quarta", sala: "Sala 31/32", curso: "Direito", disciplina: "Teoria Jurídica do Direito Penal", professor: "Higor Souza", semestre: "1° Semestre", turma: "4831520261A", modalidade: "Presencial" },
     { dia: "Quarta", sala: "Sala 33/34", curso: "Agronomia - Bacharelado", disciplina: "EAD", professor: "João Victor", semestre: "1° Semestre", turma: "1° Semestre", modalidade: "EAD" },
-    { dia: "Quarta", sala: "Lab Enferm.", curso: "Enfermagem", disciplina: "EAD", professor: "Wenison", semestre: "2º e 3º Semestre", turma: "2º e 3º Semestre", modalidade: "EAD" },
 
     // =====================================================
     // QUINTA-FEIRA
@@ -98,7 +99,7 @@ const disciplinas = [
     { dia: "Quinta", sala: "Sala 06", curso: "Direito", disciplina: "Direito Constitucional", professor: "Emanuella França", semestre: "3° Semestre", turma: "4831520251A", modalidade: "Presencial" },
     { dia: "Quinta", sala: "Sala 07", curso: "Enfermagem", disciplina: "EAD", professor: "Wenison", semestre: "6º e 7º Semestre", turma: "6º e 7º Semestre", modalidade: "EAD" },
     { dia: "Quinta", sala: "Sala 09", curso: "Psicologia", disciplina: "Processos Psicológicos Básicos", professor: "Stella Cezimbra", semestre: "2° Semestre", turma: "4433820252A", modalidade: "Presencial" },
-    { dia: "Quinta", sala: "Sala 10", curso: "Administração e Ciências Contábeis", disciplina: "EAD", professor: "Lucivan Medina", semestre: "1° Semestre", turma: "1° Semestre", modalidade: "EAD" },
+    { dia: "Quinta", sala: "Sala 10", curso: "Administração", disciplina: "EAD", professor: "Denise Pinheiro", semestre: "1º e 8° Semestre", turma: "1º e 8º Semestre", modalidade: "EAD" },
     { dia: "Quinta", sala: "Sala 11", curso: "Direito", disciplina: "Teoria Geral do Processo", professor: "Maria Clara", semestre: "2° Semestre", turma: "4831520252A", modalidade: "Presencial" },
     { dia: "Quinta", sala: "Sala 12", curso: "Psicologia", disciplina: "Terapia Familiar Sistêmica", professor: "Viviane Luz", semestre: "6° Semestre", turma: "4433820232A", modalidade: "Presencial" },
     { dia: "Quinta", sala: "Sala 16", curso: "Engenharia Civil", disciplina: "Cálculo Diferencial e Integral I", professor: "Jhosefy", semestre: "1° Semestre", turma: "494620261A", modalidade: "Presencial" },
@@ -107,7 +108,6 @@ const disciplinas = [
     { dia: "Quinta", sala: "Sala 19", curso: "Engenharia Mecânica", disciplina: "EAD", professor: "A Definir", semestre: "6º e 7º Semestre", turma: "6º e 7º Semestre", modalidade: "EAD" },
     { dia: "Quinta", sala: "Sala 21", curso: "Direito", disciplina: "Direito Empresarial", professor: "Rebeca Biasi", semestre: "6° Semestre", turma: "4831520232A", modalidade: "Presencial" },
     { dia: "Quinta", sala: "Sala 23", curso: "Engenharia Civil", disciplina: "Estruturas de Concreto Armado I", professor: "Valerry Garcia", semestre: "4º, 5º e 6º Semestre", turma: "494620231A, 494620241A, 494620242A", modalidade: "Híbrido" },
-    { dia: "Quinta", sala: "Sala 24", curso: "Administração", disciplina: "EAD", professor: "Denise Pinheiro", semestre: "8° Semestre", turma: "1º e 8º Semestre", modalidade: "EAD" },
     { dia: "Quinta", sala: "Sala 25", curso: "Nutrição", disciplina: "EAD", professor: "Mahyá Martins", semestre: "2º e 3º Semestre", turma: "2º e 3º Semestre", modalidade: "EAD" },
     { dia: "Quinta", sala: "Sala 26", curso: "Agronomia - Bacharelado", disciplina: "EAD", professor: "Khayo", semestre: "8º e 9º Semestre", turma: "8º e 9º Semestre", modalidade: "EAD" },
     { dia: "Quinta", sala: "Sala 27", curso: "Direito", disciplina: "Direito Administrativo", professor: "Higor Souza", semestre: "10° Semestre", turma: "4831520212A", modalidade: "Presencial" },
@@ -121,7 +121,7 @@ const disciplinas = [
     // SEXTA-FEIRA
     // =====================================================
     { dia: "Sexta", sala: "Sala 01", curso: "Psicologia", disciplina: "Psicopatologia II", professor: "Gisele Maraschin", semestre: "7° Semestre", turma: "4433820231A", modalidade: "Presencial" },
-    { dia: "Sexta", sala: "Sala 02", curso: "Psicologia", disciplina: "Análise Experimental do Comportamento", professor: "Clauber Torres", semestre: "1º e 2º Semestre", turma: "4433820252A, 4433820261A", modalidade: "Presencial" },
+    { dia: "Sexta", sala: "Sala 02", curso: "Direito", disciplina: "Modelo MultiPortas", professor: "Emanuella França", semestre: "3° Semestre", turma: "4831520251A, 4831520251B", modalidade: "Presencial" },
     { dia: "Sexta", sala: "Sala 05", curso: "Psicologia", disciplina: "Matrizes do Pensamento em Psicologia - Psicanálise", professor: "Danianisse Balieiro", semestre: "4º e 5º Semestre", turma: "4433820241A, 4433820242A", modalidade: "Presencial" },
     { dia: "Sexta", sala: "Sala 06", curso: "Licenciaturas - Pedagogia, Historia, Ed. Fisica e Matemática", disciplina: "EAD", professor: "Carla Girard", semestre: "1° Semestre", turma: "1° Semestre", modalidade: "EAD" },
     { dia: "Sexta", sala: "Sala 09", curso: "Engenharia Elétrica", disciplina: "EAD", professor: "Elika Sousa", semestre: "7° Semestre", turma: "7° Semestre", modalidade: "EAD" },
@@ -134,7 +134,7 @@ const disciplinas = [
     { dia: "Sexta", sala: "Sala 23", curso: "Engenharia Civil", disciplina: "Mecânica dos Solos e Obras de Terra", professor: "Valerry Garcia", semestre: "9° Semestre", turma: "494620221A", modalidade: "Presencial" },
     { dia: "Sexta", sala: "Sala 29/30", curso: "Direito", disciplina: "Direito Previdenciário", professor: "Iolindemberg Mendes", semestre: "4° Semestre", turma: "4831520241A, 4831520242A", modalidade: "Presencial" },
     { dia: "Sexta", sala: "Sala 31/32", curso: "Direito", disciplina: "Direito Processual Penal", professor: "Higor Souza", semestre: "6º e 7º Semestre", turma: "4831520231A, 4831520232A", modalidade: "Presencial" },
-    { dia: "Sexta", sala: "Sala 33/34", curso: "Direito", disciplina: "Modelo MultiPortas", professor: "Emanuella França", semestre: "3° Semestre", turma: "4831520251A, 4831520251B", modalidade: "Presencial" }
+    { dia: "Sexta", sala: "Sala 33/34", curso: "Psicologia", disciplina: "Análise Experimental do Comportamento", professor: "Clauber Torres", semestre: "1º e 2º Semestre", turma: "4433820252A, 4433820261A", modalidade: "Presencial" },
 ];
 
 // =====================================================
